@@ -1,0 +1,24 @@
+<?php
+	session_start();
+	$im=imagecreatetruecolor(52,25);
+	$black=imagecolorallocate($im,0,0,0);
+ 	$white=imagecolorallocate($im,255,255,255);
+ 	$red=imagecolorallocate($im,255,0,0);
+ 	$grayred=imagecolorallocate($im,255,100,100);
+ 	$green=imagecolorallocate($im,0,255,0);
+ 	$blue=imagecolorallocate($im,0,0,255);
+ 	$gray=imagecolorallocate($im,200,200,200);
+ 	imagefill($im,0,0,$gray);
+ 	 for($i=0;$i<1000;$i++)
+ 	 {
+   		imagesetpixel($im,mt_rand(0,52),mt_rand(0,25),$white);
+ 	 }
+ 	$strarr=array_merge(range(0,9),range('a','z'));
+ 	shuffle($strarr);
+ 	$str=join('',array_slice($strarr,0,4));
+ 	$_SESSION['vstr']=$str;
+ 	imagestring($im,5,5,5,$str,$black);
+ 	header("content-type:image/png");
+ 	imagepng($im);
+ 	imagedestroy($im);
+?>
