@@ -1,0 +1,74 @@
+#top{
+	width: 865px;
+	height: 27px;
+	padding-top: 5px;
+	padding-left: 8px;
+	font-family: "SimHei";
+	font-size: 20px;
+	color: #534D3C;
+	cursor: default;
+}
+#left{
+	float: left;
+	width: 180px;
+	height: 611px;
+	border-right: 2px dashed #B6AF9A;
+}
+#left div{
+	width: 162px;
+	height: 20px;
+	padding: 30px 0px 2px 3px;
+	margin-left: 8px;
+	border-bottom: 2px dashed #B6AF9A;
+	font-family: "SimHei";
+	color: #534D3C;
+	cursor: default;
+}
+#left ul li{
+	width: 85px;
+	height: 20px;
+	margin: 5px;
+	margin-left: 10px;
+	font-size: 15px;
+	padding: 3px 0px 0px 4px;
+	border-radius: 4px;
+	color: #534D3C;
+	cursor: pointer;
+}
+#right{
+	float: left;
+	width: 671px;
+	height: 631px;
+}
+#right div{
+	width: 681px;
+	height: 621px;
+	margin:5px;
+	text-align: center;
+	color: #B6AF9A;
+	display: none;
+}
+#new{
+	width: 70px;
+	margin-left: 660px;
+	cursor: pointer;
+}
+#set{	
+	cursor: pointer;
+}
+.active{
+	background: #D7D5C1;
+}
+#right ul input{
+	width: 16px;
+	height: 16px;
+	margin-left: -15px;
+}
+#right ul li{
+	display: block;
+	width: 500px;
+	height: 30px;
+	border: 2px solid #999;
+	margin-left: -50px;
+	background: red;
+}

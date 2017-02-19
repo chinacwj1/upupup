@@ -1,0 +1,78 @@
+body{
+	background-repeat: no-repeat;
+	height: 100%;
+}
+#header{
+	width: 1308px;
+	height:180px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#name{
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	width: 1240px;
+	height: 70px;
+	font-family: "SimHei";
+	font-size: 60px;
+	font-style: italic;
+	letter-spacing: 6px;
+	color: #FFF;
+}
+#main{
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	width: 1308px;
+	height: 698px;
+	background: #FFF;
+	filter: alpha(opacity=95);
+    opacity: 0.95;
+}
+#left{
+	width: 300px;
+	height: 698px;
+	background: #B6AF9A;
+	float: left;
+}
+#right{
+	position: absolute;
+	left: 300px;
+	width: 992px;
+	height: 682px;
+	border: 8px solid #D1CEB7;
+}
+#left ul li{
+	width: 265px;
+	height: 35px;
+	border: none;
+	border-top: 2px solid #D1CEB7;
+	font-family: "SimHei";
+	font-size: 22px;
+	margin-left: -40px;
+	padding-top: 13px;
+	padding-left: 35px;
+	color: #26241C;
+	background: #B6AF9A;
+	display: block;
+}
+#left input{
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px dashed #D1CEB7;
+	font-family: "SimHei";
+	font-size: 18px;
+	margin-left: -40px;
+	color: #26241C;
+	background: #B6AF9A;
+    display: none;
+}
+#left .btn{
+	background:#D1CEB7; 
+}
+#right div{
+	display: none;
+}

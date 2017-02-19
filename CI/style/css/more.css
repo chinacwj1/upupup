@@ -1,0 +1,26 @@
+table{
+	margin-left: 10px;
+	color: #26241C;
+	font-size: 16px;
+}
+table tr th{
+	height: 28px;
+	/*border: 1px solid black;*/
+}
+.name{
+	width: 520px;
+	text-align: left;
+}
+.set{
+	width: 40px;
+	height: 24px;
+	margin-left: 3px;
+	border: 2px solid #D7D5C1;
+	color: #26241C;
+	background: #D7D5C1;
+}
+#all{
+	display: block;
+	margin-left: 20px;
+	font-size: 12px;
+}
